@@ -1,0 +1,55 @@
+.container-more {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-more {
+    width: 70%;
+    height: 100%;
+}
+
+.more-cards-container {
+    display: flex;
+    gap: 3%;
+    height: 80%;
+    width: 100%;
+}
+
+
+.heading>h1 {
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    .banner-more {
+        width: 80%;
+        height: 100%;
+    }
+
+    .container-more {
+        background-color: black;
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .more-cards-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1%;
+        width: 100%;
+    }
+}

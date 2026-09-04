@@ -1,0 +1,220 @@
+.hero-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img-shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9000) 0.000%,
+            rgba(0, 0, 0, 0.8965) 8.500%,
+            rgba(0, 0, 0, 0.8861) 17.00%,
+            rgba(0, 0, 0, 0.8688) 25.50%,
+            rgba(0, 0, 0, 0.8444) 34.00%,
+            rgba(0, 0, 0, 0.8132) 42.50%,
+            rgba(0, 0, 0, 0.7750) 51.00%,
+            rgba(0, 0, 0, 0.7368) 59.50%,
+            rgba(0, 0, 0, 0.7056) 68.00%,
+            rgba(0, 0, 0, 0.6813) 76.50%,
+            rgba(0, 0, 0, 0.6639) 85.00%,
+            rgba(0, 0, 0, 0.6535) 93.50%,
+            rgba(0, 0, 0, 0.6500) 102.0%);
+    z-index: 2;
+}
+
+.hero-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.fake-nav {
+    height: 13vh;
+}
+
+.main {
+    width: 100%;
+    height: 87%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+
+.main-headline {
+    text-align: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 600;
+    font-size: 220%;
+    font-style: normal;
+    color: white;
+}
+
+.descp h4 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 600;
+    font-size: 150%;
+    font-style: normal;
+    color: white;
+}
+
+.descp p {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    font-style: normal;
+    color: white;
+}
+
+.buttons {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.buttons>input {
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    font-style: normal;
+    color: white;
+    border: 1px dotted white;
+    border-radius: 0.4rem;
+    background-color: transparent;
+    width: 60%;
+    padding: 20px 10px;
+}
+
+.buttons>button {
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+    font-style: normal;
+    color: white;
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    border-radius: 0.4rem;
+    width: 40%;
+    padding: 10px 5px;
+}
+
+@media (max-width: 600px) {
+
+    .main {
+        width: 100%;
+        height: 87%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 4;
+    }
+
+    .container-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        color: white;
+        padding: 10% 10%;
+    }
+
+    .main-headline {
+        text-align: center;
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 600;
+        font-size: 170%;
+        font-style: normal;
+        color: white;
+    }
+
+    .descp h4 {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 600;
+        font-size: 140%;
+        font-style: normal;
+        color: white;
+    }
+
+    .descp p {
+        padding-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 400;
+        font-size: 100%;
+        font-style: normal;
+        color: white;
+    }
+
+    .buttons {
+        width: 90%;
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .buttons>input {
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 600;
+        font-size: 120%;
+        font-style: normal;
+        color: white;
+        border: 1px dotted white;
+        border-radius: 0.4rem;
+        background-color: transparent;
+        width: 100%;
+    }
+
+    .buttons>button {
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 800;
+        font-size: 150%;
+        font-style: normal;
+        color: white;
+        background-color: #e50914;
+        border: 1px solid #e50914;
+        border-radius: 0.4rem;
+        width: 100%;
+    }
+}
